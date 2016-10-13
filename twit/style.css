@@ -15,6 +15,7 @@ button {
 img {
   border-radius: 10px;
   padding:5px;
+  margin:2px;
 }
 
 #form {
@@ -49,8 +50,8 @@ img {
 
 
  #header {
-  background-color: rgb(212, 208, 211);
-  height:50x;
+
+  height:40x;
   text-align: center;;
   vertical-align:middle;
   display: flex;
@@ -66,8 +67,10 @@ img {
   border-radius: 5px;
   border: 1px solid rgb(212, 206, 206);
   font-size: 1.2em;
-  max-width: 800px;
-
+  display:flex:
+  justify-content: center;
+  margin: auto;
+  max-width: 750px;
 }
 
 .id {
@@ -85,6 +88,7 @@ img {
   margin:0px;
   border-bottom: 2px solid rgb(212, 206, 206);
   min-height: 1%;
+  min-width:750px;
   overflow: hidden;
   background-color: white;
 
@@ -99,12 +103,12 @@ img {
 .left-tweet-column {
 
   float:left;
-  width:20%
+  width:11%
 }
 
 .right-tweet-column {
   float:left;
-  width:80%
+  width:89%
 
 
 }
