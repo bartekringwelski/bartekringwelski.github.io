@@ -66,6 +66,7 @@ img {
   border-radius: 5px;
   border: 1px solid rgb(212, 206, 206);
   font-size: 1.2em;
+  max-width: 800px;
 
 }
 
