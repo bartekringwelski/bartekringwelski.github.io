@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(234, 238, 249);
+}
+
+div {
+
+}
+
+button {
+  border-radius: 5px;
+  background-color: rgb(230, 231, 238);
+  border: solid 1px rgb(224, 224, 224);
+}
+
+img {
+  border-radius: 10px;
+  padding:5px;
+}
+
+#form {
+  width:500px;
+  min-height:1%;
+
+  padding:5px;
+  border-radius: 5px;
+
+}
+
+
+#spinner {
+  max-width: 5%;
+
+}
+
+#search {
+  margin:20px;
+  padding:20px;
+  font-size: 1.75em;
+  text-align: center;
+  margin: auto;
+}
+
+.tweet-user {
+  height: auto;
+  width: auto;
+  max-width: 73px;
+  max-height: 73px;
+}
+
+
+ #header {
+  background-color: rgb(212, 208, 211);
+  height:50x;
+  text-align: center;;
+  vertical-align:middle;
+  display: flex;
+  justify-content: center;
+
+}
+
+.tweets-container {
+  /*background-color: rgb(240, 213, 231);*/
+  margin: 10px 200px 10px 200px;
+  min-height: 1%;
+  overflow:hidden;
+  border-radius: 5px;
+  border: 1px solid rgb(212, 206, 206);
+  font-size: 1.2em;
+
+}
+
+.id {
+  font-size: .8em;
+}
+
+
+.time {
+  font-size: .7em;
+  color:rgb(166, 164, 162);
+}
+
+
+.tweet-container {
+  margin:0px;
+  border-bottom: 2px solid rgb(212, 206, 206);
+  min-height: 1%;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+
+.highlight {
+  background-color: rgba(236, 222, 255, 0.5);
+}
+
+
+.left-tweet-column {
+
+  float:left;
+  width:20%
+}
+
+.right-tweet-column {
+  float:left;
+  width:80%
+
+
+}
