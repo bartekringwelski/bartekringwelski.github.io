@@ -95,10 +95,11 @@ $(document).ready(function() {
 
     $('input').on('keypress', function(event) {
       var value = $('input').val();
-        if (event.which === 13 && value !== "") {
-            console.log("hey")
+        if (event.which === 13 && value === "") {
+            renderTweets(streams.home)
 //            $(`.tweet-container:not(contains($value))`).remove();
-
+          }
+          else if (event.which === 13 && value !== ""){
 
             $(`.tweet-container:not(:contains('${value}'))`).hide()
         };
