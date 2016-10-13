@@ -93,6 +93,19 @@ $(document).ready(function() {
 
 
 
+    $('input').on('keypress', function(event) {
+      var value = $('input').val();
+        if (event.which === 13 && value !== "") {
+            console.log("hey")
+//            $(`.tweet-container:not(contains($value))`).remove();
+
+
+            $(`.tweet-container:not(:contains('${value}'))`).hide()
+        };
+})
+
+
+
 // document closing tag
 });
 
